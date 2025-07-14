@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>About Us | TRUSTFUNDCHAIN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        body { font-family: 'Fredoka', Arial, sans-serif; }
+        .team-member {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(30,58,138,0.08);
+            padding: 2rem 1rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            transition: transform 0.2s;
+        }
+        .team-member:hover { transform: translateY(-6px) scale(1.03); }
+        .team-photo {
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 3px solid #3b82f6;
+        }
+        .tech-list i {
+            font-size: 2rem;
+            margin-right: 0.5rem;
+            color: #1e3a8a;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 shadow-sm">
+        <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="IMAGENES/Diseño sin título 2.png" width="45" class="me-2" alt="Logo">
+            <strong>TRUSTFUNDCHAIN</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="identity.html">DIGITAL IDENTITY</a></li>
+            <li class="nav-item"><a class="nav-link" href="transparency.html">TRANSPARENCY</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#impact">IMPACT</a></li>
+            <li class="nav-item"><a class="nav-link active" href="aboutus.html">ABOUT US</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#contact">CONTACT</a></li>
+            </ul>
+            <a href="index.html#registro" class="btn btn-success ms-lg-3">DONATE NOW</a>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="py-5 text-center bg-primary text-white">
+        <div class="container">
+            <h1 class="display-4 mb-3">Meet Our Team</h1>
+            <p class="lead mb-0">The minds and hearts behind TRUSTFUNDCHAIN</p>
+        </div>
+    </section>
+
+    <!-- Team Members -->
+    <section class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-3">
+                <div class="team-member">
+                    <img src="IMAGENES/victor.jpg" class="team-photo" alt="Victor Hugo">
+                    <h5>Victor Hugo</h5>
+                    <p class="text-muted mb-1">Full Stack Developer</p>
+                    <p>Desarrollador apasionado por blockchain y la transparencia social. Encargado de la arquitectura y la integración de sistemas.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="team-member">
+                    <img src="IMAGENES/mochi.jpg" class="team-photo" alt="Mochi">
+                    <h5>Mochi <span class='text-muted' style='font-size:0.9em;'>(Nombre artístico)</span></h5>
+                    <p class="text-muted mb-1">UI/UX Designer</p>
+                    <p>Especialista en experiencia de usuario y diseño accesible. Responsable de la imagen y usabilidad de la plataforma.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="team-member">
+                    <img src="IMAGENES/carmelo.jpg" class="team-photo" alt="Carmelo Enrique">
+                    <h5>Carmelo Enrique</h5>
+                    <p class="text-muted mb-1">Blockchain Engineer</p>
+                    <p>Implementación de contratos inteligentes y seguridad. Garantiza la integridad y trazabilidad de las donaciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Story & Technologies -->
+    <section class="container pb-5">
+        <div class="row">
+            <div class="col-lg-7 mb-4">
+                <h2>Nuestra Historia</h2>
+                <p>TRUSTFUNDCHAIN nació de la necesidad de crear un sistema de donaciones transparente y accesible para todos. Nuestro equipo multidisciplinario se unió con la visión de empoderar a personas sin documentación y garantizar que cada donación llegue a quienes más lo necesitan. El desarrollo implicó retos técnicos y sociales, pero la pasión por la innovación y el impacto social nos mantuvo unidos.</p>
+            </div>
+            <div class="col-lg-5">
+                <h2>Tecnologías Usadas</h2>
+                <ul class="list-unstyled tech-list">
+                    <li><i class="bi bi-bootstrap"></i>Bootstrap 5</li>
+                    <li><i class="bi bi-code-slash"></i>JavaScript (ES6+)</li>
+                    <li><i class="bi bi-diagram-3"></i>Blockchain (Smart Contracts)</li>
+                    <li><i class="bi bi-palette"></i>UI/UX Design</li>
+                    <li><i class="bi bi-git"></i>Git & GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>TRUSTFUNDCHAIN</h5>
+                    <p class="mb-0">Building trust through blockchain transparency</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p class="mb-0">© 2024 TRUSTFUNDCHAIN. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
